@@ -13,22 +13,21 @@ Then install the Python packages:<br>
 `pip install -r requirements.txt`
 
 ## Notebooks
-If you want to reroduce our results, the notebooks should be run sequentially.<br>
-However, if you want quick overview of the methodology you only need to concern yourself with the notebooks with an asterix(*). 
+These notebooks are intended to be run sequentially, but they are not dependent on one another.
 
 ### 0-data-collection.ipynb
-How we discovered and interacted with the "PlacementSuggestionService" API from "ads.google.com". Use this notebook mostly for reference, the code will not work with the expired parameters present.
+How we discovered and interacted with the "PlacementSuggestionService" API from "ads.google.com". Use this notebook mostly for reference for how we collected data. The code will not work with the expired parameters present.
 
 ### 1-data-preprocessing.ipynb
 Parsing the API responses and fetching the suggested videos and channels for each term we sent to the undocumented API.
 
-### 2-data-analysis-hate.ipynb *
+### 2-data-analysis-hate.ipynb
 The bulk of stats and tables for our hate methodology.
 
-### 3-suggestion-analysis.ipynb *
+### 3-suggestion-analysis.ipynb
 Looks at videos and channels suggested by the API for hate terms. We cross reference these suggestions with channels the ADL identified as "extremist" or "alternative".
 
-### 4-data-analysis-social-justice.ipynb *
+### 4-data-analysis-social-justice.ipynb
 The bulk of stats and tables visualization for our social justice methodology.
 
 ### terms.py
