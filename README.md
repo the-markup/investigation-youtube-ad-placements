@@ -1,9 +1,13 @@
 # YouTube Ad Placements Keyword Blocklist
-This repository contains code and data to reproduce the findings.
+This repository contains code and data to reproduce our investigation of YouTube ad placements.
 
 Data that we collected and analyzed are in the `data` folder.
 
 Jupyter notebooks used for data colletion, preprocessing and analysis are in the `notebooks` folder.
+
+<img src="data/media/google_ad_portal_youtube_ad_placements.png" width=800>
+<i> Advertisers can use Google's ad portal to search for YouTube videos and channels related to keywords like: "hiking gear reviews" to advertise on.</i>
+<br>
 
 ## Installation
 ### Python
@@ -31,7 +35,7 @@ Looks at videos and channels suggested by the API for hate terms. We cross refer
 The bulk of stats and tables visualization for our social justice methodology.
 
 ### terms.py
-This contains lists of terms used in this series. Briefly, this includes `hate` terms sourced from the SPLC, RationalWiki, and Muslim Advocates. `social_justice` terms sourced from Color of Change, Media Justice, Mijente, and Muslim Advocates. `adhoc` terms are submitted for comparison against terms in the other lists. `noise` contains random alphanumeric characters.
+This contains lists of terms used in this series. Briefly, this includes `hate` terms sourced from the SPLC, RationalWiki, and Muslim Advocates. `social_justice` terms sourced from Color of Change, Media Justice, Mijente, and Muslim Advocates. `adhoc` terms were submitted for comparison against terms in the other lists. `noise` contains random alphanumeric characters.
 
 Refer to the "Data" section below for the API status of each of these terms.
 
