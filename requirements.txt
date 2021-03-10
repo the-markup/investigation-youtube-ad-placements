@@ -1,2 +1,3 @@
 pandas
 tqdm
+youtube-data-api
