@@ -3,10 +3,17 @@
 
 
 ## Notebooks
-1. How we collected data
-2. How we parse the data
-3. How we refined the data
-4. How We analyzed the data
+Notebooks for data collection, preprocessing and analysis
+
+### 0-data-collection
+How we discovered and interacted with the "PlacementSuggestionService" API from "ads.google.com". Use this notebook mostly for reference, the code will not work with the expired parameters present.
+
+### 1-data-preprocessing
+Parsing the API responses and fetching the suggested videos and channels for each term we sent to the undocumented API.
+
+### 2-
+
+
 
 
 ## Data

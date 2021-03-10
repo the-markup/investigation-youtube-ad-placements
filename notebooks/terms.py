@@ -147,8 +147,7 @@ Dindu
 Race and IQ
 Shitskins
 Amerimutt
-LGBTP
-The Alphabet Community'''.split('\n')
+LGBTP'''.split('\n')
 
 sexual_identity = '''gay
 straight
@@ -182,6 +181,7 @@ girlfriend'''.split('\n')
 
 policies = ['miracle cancer treatment',
  'ecstasy',
+ 'sex',
  'sexual gratification',
  'make firearm',
  'recruit terrorists',
@@ -360,9 +360,6 @@ comparison = [
     "black christian",
     "christian parenting",
     "jewish parenting",
-    "scientologist parenting",
-    "scientologist fashion",
-    "scientologist solidarity",
     "buddhist parenting",
     "buddhist fashion",
     "christian solidarity",
@@ -434,13 +431,13 @@ comparison = [
 ]
 
 
-justice = list(set([t.lower().strip() for t in justice]))
+social_justice = list(set([t.lower().strip() for t in social_justice]))
 hate = list(set([t.lower().strip() for t in hate]))
 policies = list(set([t.lower().strip() for t in policies]))
 # comparison += sexual_identity
 
 category2terms = {
-    'social_justice' : justice,
+    'social_justice' : social_justice,
     'hate' : hate,
     'policy' : policies,
     'noise' : noise,
