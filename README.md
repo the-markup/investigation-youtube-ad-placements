@@ -1,4 +1,4 @@
-# YouTube Ad Placements' Blocklist
+# YouTube Ad Placements
 This repository contains code and data to reproduce our investigation of YouTube ad placements.
 
 Data that we collected and analyzed are in the `data` folder.
@@ -26,13 +26,13 @@ How we discovered and interacted with the "PlacementSuggestionService" API from 
 Parsing the API responses and fetching the suggested videos and channels for each term we sent to the undocumented API.
 
 ### 2-data-analysis-hate.ipynb
-The bulk of stats and tables for our hate methodology.
+The bulk of stats and tables for our hate story and methodology.
 
 ### 3-suggestion-analysis.ipynb
 Looks at videos and channels suggested by the API for hate terms. We cross reference these suggestions with channels the ADL identified as "extremist" or "alternative".
 
 ### 4-data-analysis-social-justice.ipynb
-The bulk of stats and tables visualization for our social justice methodology.
+The bulk of stats and tables for our social justice story and methodology.
 
 ### terms.py
 This contains lists of terms used in this series. Briefly, this includes `hate` terms sourced from the SPLC, RationalWiki, and Muslim Advocates. `social_justice` terms sourced from Color of Change, Media Justice, Mijente, and Muslim Advocates. `adhoc` terms were submitted for comparison against terms in the other lists. `noise` contains random alphanumeric characters.
