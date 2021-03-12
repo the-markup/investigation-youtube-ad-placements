@@ -20,19 +20,19 @@ Then install the Python packages:<br>
 These notebooks are intended to be run sequentially, but they are not dependent on one another.
 
 ### 0-data-collection.ipynb
-How we discovered and interacted with the "PlacementSuggestionService" API from "ads.google.com". We sent each keyword in `terms.py` to this undocumented API. Use this notebook mostly for reference for how we collected data. The code will not work with the expired parameters present.
+How we interacted with the "PlacementSuggestionService" API from "ads.google.com". We sent each term from `terms.py` to this API. Use this notebook mostly for reference for how we collected data. The code will not work with the expired parameters present.
 
 ### 1-data-preprocessing.ipynb
 Parsing the API responses and fetching the suggested videos and channels for each term we sent to the undocumented API.
 
 ### 2-data-analysis-hate.ipynb
-The bulk of stats and tables for our hate story and methodology.
+The bulk of stats and tables for our hate methodology.
 
 ### 3-suggestion-analysis.ipynb
 Looks at videos and channels suggested by the API for `hate` terms. We cross reference these suggestions with channels the ADL identified as "extremist" or "alternative".
 
 ### 4-data-analysis-social-justice.ipynb
-The bulk of stats and tables for our social justice story and methodology.
+The bulk of stats and tables for our social justice methodology.
 
 ### terms.py
 This contains lists of terms used in this series. Briefly, this includes `hate` terms sourced from the SPLC, RationalWiki, and Muslim Advocates. `social_justice` terms sourced from Color of Change, Media Justice, Mijente, and Muslim Advocates. `adhoc` terms were submitted for comparison against terms in the other lists. `noise` contains random alphanumeric characters.
@@ -92,6 +92,6 @@ data
 | `data/output/placements_api_suggestions/`                   | The suggested YouTube videos and channels for each search term.                                                                                                                                                                                                                                                                             |
 | `data/input/placements_api_deep3/`                          | API responses for the `hate` terms "we wuz kangz", "white ethnostate" and "white genocide" beyond the topline 20 video suggestions.                                                                                                                                                                                                         |
 | `data/input/video_metadata/`                                | Video metadata for suggested videos from the YouTube Data API (v3). Collected with the unofficial Python client ([YouTube Data API](https://youtube-data-api.readthedocs.io/en/latest/))                                                                                                                                                    |
-| `data/input/adl_extremist_alternative_channels_overlap.csv` | Contains channel names and IDs that the [ADL identified](https://www.adl.org/resources/reports/exposure-to-alternative-extremist-content-on-youtube) as "extremist" or "alternative." This is a subset of the list that overlaps with channels we found.                                                                                    |
+| `data/input/adl_extremist_alternative_channels_overlap.csv` | Contains channel names and IDs that the a report published by the [ADL identified](https://www.adl.org/resources/reports/exposure-to-alternative-extremist-content-on-youtube) as "extremist" or "alternative." This is a subset of the list that overlaps with channels we found.                                                                                    |
 | `data/output/adl_extremist_alternative_channel_overlap.csv` | The count of unique "extremist" and "alternative" videos and channels from the topline suggestions for `hate` terms we sent through the "PlacementSuggestionService" API. We included the channels that were suggested in the `channels` column.                                                                                            |
 | `data/input/hate_terms_additional_info.csv`                 | Links for more information about each of the terms in the `hate` list.                                                                                                                                                                                                                                                                      |
