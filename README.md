@@ -20,7 +20,7 @@ Then install the Python packages:<br>
 These notebooks are intended to be run sequentially, but they are not dependent on one another.
 
 ### 0-data-collection.ipynb
-How we interacted with the "PlacementSuggestionService" API from "ads.google.com". We sent each term from `terms.py` to this API. Use this notebook mostly for reference for how we collected data. The code will not work with the expired parameters present.
+How we interacted with the "PlacementSuggestionService" API from "ads.google.com". We sent each term from `terms.py` through the API. Use this notebook for reference: it is not functional due to the expired or redacted parameters present.
 
 ### 1-data-preprocessing.ipynb
 Parsing the API responses and fetching the suggested videos and channels for each term we sent to the undocumented API.
