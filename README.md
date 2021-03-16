@@ -29,7 +29,7 @@ Parsing the API responses and fetching the suggested videos and channels for eac
 The bulk of stats and tables for our hate methodology.
 
 ### 3-suggestion-analysis.ipynb
-Looks at videos and channels suggested by the API for `hate` terms. We cross reference these suggestions with channels the ADL identified as "extremist" or "alternative".
+Looks at videos and channels suggested by the API for `hate` terms. We cross reference these suggestions with channels a report published by the ADL identified as "extremist" or "alternative".
 
 ### 4-data-analysis-social-justice.ipynb
 The bulk of stats and tables for our social justice methodology.
@@ -70,6 +70,7 @@ data
 │       └── topline_hate_videos.csv
 └── output
     ├── adl_extremist_alternative_channel_overlap.csv
+    ├── tables
     ├── placements_api_keyword_status
     │   ├── adhoc.csv
     │   ├── basewords.csv
@@ -87,11 +88,12 @@ data
 |:------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `data/reference/placement_api_example_responses/`           | Examples of `blocked`, `partially_blocked`, `full` and `empty` responses from the "PlacementSuggestionService" API.                                                                                                                                                                                                                         |
 | `data/reference/what_is_blocked.xlsx`                       | A spreadsheet with the kind of API responses for all the terms in our investigation.                                                                                                                                                                                                                                                        |
+| `data/output/tables/`                                       | CSVs of tables that are in the methodology.                                                                                                                                                                                                                                                                                                 |
 | `data/input/placements_api/`                                | This contains responses for keywords from `notebooks/terms.py` that we submitted to the "PlacementSuggestionService" API. Each sub-directory is used to organize by the keyword list used. `blocked` are terms that we resubmitted after removing spaces, and `blocked_basewords` are terms that were blocked and resubmitted word-by-word. |
 | `data/output/placements_api_keyword_status/`                | Contains the API status of keywords from `notebooks/terms.py` after being sent through the "PlacementSuggestionService" API.                                                                                                                                                                                                                |
 | `data/output/placements_api_suggestions/`                   | The suggested YouTube videos and channels for each search term.                                                                                                                                                                                                                                                                             |
 | `data/input/placements_api_deep3/`                          | API responses for the `hate` terms "we wuz kangz", "white ethnostate" and "white genocide" beyond the topline 20 video suggestions.                                                                                                                                                                                                         |
 | `data/input/video_metadata/`                                | Video metadata for suggested videos from the YouTube Data API (v3). Collected with the unofficial Python client ([YouTube Data API](https://youtube-data-api.readthedocs.io/en/latest/))                                                                                                                                                    |
-| `data/input/adl_extremist_alternative_channels_overlap.csv` | Contains channel names and IDs that the a report published by the [ADL identified](https://www.adl.org/resources/reports/exposure-to-alternative-extremist-content-on-youtube) as "extremist" or "alternative." This is a subset of the list that overlaps with channels we found.                                                                                    |
+| `data/input/adl_extremist_alternative_channels_overlap.csv` | Contains channel names and IDs that the [ADL identified](https://www.adl.org/resources/reports/exposure-to-alternative-extremist-content-on-youtube) as "extremist" or "alternative." This is a subset of the list that overlaps with channels we found.                                                                                    |
 | `data/output/adl_extremist_alternative_channel_overlap.csv` | The count of unique "extremist" and "alternative" videos and channels from the topline suggestions for `hate` terms we sent through the "PlacementSuggestionService" API. We included the channels that were suggested in the `channels` column.                                                                                            |
 | `data/input/hate_terms_additional_info.csv`                 | Links for more information about each of the terms in the `hate` list.                                                                                                                                                                                                                                                                      |
