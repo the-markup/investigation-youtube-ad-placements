@@ -23,7 +23,7 @@ These notebooks are intended to be run sequentially, but they are not dependent 
 How we interacted with the "PlacementSuggestionService" API from "ads.google.com". We sent each term from `terms.py` through the API. Use this notebook for reference: it is not functional due to the expired or redacted parameters present.
 
 ### 1-data-preprocessing.ipynb
-Parsing the API responses and fetching the suggested videos and channels for each term we sent to the undocumented API.
+Parsing the API responses and fetching the suggested videos and channels for each term we sent to the API.
 
 ### 2-data-analysis-hate.ipynb
 The bulk of stats and tables for our hate methodology.
@@ -35,7 +35,7 @@ Looks at videos and channels suggested by the API for `hate` terms. We cross ref
 The bulk of stats and tables for our social justice methodology.
 
 ### terms.py
-This contains lists of terms used in this series. Briefly, this includes `hate` terms sourced from the SPLC, RationalWiki, and Muslim Advocates. `social_justice` terms sourced from Color of Change, Media Justice, Mijente, and Muslim Advocates. `adhoc` terms were submitted for comparison against terms in the other lists. `noise` contains random alphanumeric characters.
+This contains lists of terms used in the series. This includes `hate` terms sourced from the SPLC, RationalWiki, and Muslim Advocates. `social_justice` terms sourced from Color of Change, Media Justice, Mijente, and Muslim Advocates. `adhoc` terms were submitted for comparison against terms in the other lists. `noise` contains randomly generated strings.
 
 Refer to the "Data" section below for the API status of each of these terms.
 
