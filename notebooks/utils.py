@@ -2,7 +2,7 @@ import pandas as pd
 
 def value_counts(df: pd.DataFrame, 
                  col: str, 
-                 *args. **kwargs) -> pd.DataFrame:
+                 *args, **kwargs) -> pd.DataFrame:
     """
     For a DataFrame (`df`): display normalized (percentage) 
     `value_counts(normalize=True)` and regular counts 
