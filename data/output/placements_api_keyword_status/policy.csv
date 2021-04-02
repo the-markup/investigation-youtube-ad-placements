@@ -36,31 +36,49 @@ voter supression,Full,,125834.0,9.0,,
 cannibalism,Partial Block,,1.0,12271.0,,
 disparaging,Partial Block,,1.0,27.0,,
 dogfighting,Partial Block,,1.0,81.0,,
-3d print guns,Blocked,Partial Block,,,1.0,0.0
-abortion,Blocked,,,,,
 aids denial,Blocked,Full,,,65.0,0.0
-alcohol,Blocked,,,,,
-ammunition,Blocked,,,,,
 ammunition clips,Blocked,Full,,,678.0,0.0
 animal mating,Blocked,Full,,,72001.0,35.0
 automatic gun conversion kits,Blocked,Full,,,41.0,0.0
-beastiality,Blocked,,,,,
-beheading,Blocked,,,,,
 black salve,Blocked,Full,,,8740.0,4.0
-bongs,Blocked,,,,,
-bullfighting swords in bull,Blocked,Empty,,,0.0,0.0
 buy alcohol,Blocked,Full,,,16087.0,3.0
-buy drugs on the dark web,Blocked,Empty,,,0.0,0.0
 buy organs,Blocked,Full,,,43.0,1.0
 buy weed,Blocked,Full,,,26576.0,8.0
-cannibus coffee shops,Blocked,Empty,,,0.0,0.0
 chewing tobacco,Blocked,Full,,,56504.0,13.0
-cigarettes,Blocked,,,,,
-cigars,Blocked,,,,,
-cocaine,Blocked,,,,,
-coronavirus,Blocked,,,,,
-covid,Blocked,,,,,
-covid-19,Blocked,,,,,
+execution videos,Blocked,Full,,,3140.0,3.0
+explosive vest,Blocked,Full,,,622.0,0.0
+fetish content,Blocked,Full,,,433.0,1.0
+firearm scopes,Blocked,Full,,,3.0,1.0
+firearm silencer,Blocked,Full,,,2147.0,1.0
+firearm stocks,Blocked,Full,,,54.0,0.0
+generate fake credit card numbers,Blocked,Full,,,99.0,0.0
+hunt with bombing,Blocked,Full,,,4.0,0.0
+incorrect election date,Blocked,Full,,,13.0,0.0
+make ammunition,Blocked,Full,,,476.0,0.0
+making hard drugs,Blocked,Full,,,5.0,0.0
+minors drinking alcohol,Blocked,Full,,,73.0,0.0
+minors vaping,Blocked,Full,,,14.0,0.0
+miracle mineral solution,Blocked,Full,,,3548.0,3.0
+nude photo leaks,Blocked,Full,,,585.0,0.0
+online pharmacy no prescription,Blocked,Full,,,12.0,0.0
+package bombs,Blocked,Full,,,1568.0,0.0
+selling firearms,Blocked,Full,,,2357.0,1.0
+terrorist acts,Blocked,Full,,,11166.0,1.0
+terrorist attack,Blocked,Full,,,485073.0,83.0
+terrorist hostages,Blocked,Full,,,3.0,0.0
+terrorist ideology,Blocked,Full,,,132.0,0.0
+terrorist recruitment,Blocked,Full,,,506.0,0.0
+text your vote,Blocked,Full,,,287.0,0.0
+video game terrorist mod,Blocked,Full,,,13.0,0.0
+bullfighting swords in bull,Blocked,Empty,,,0.0,0.0
+buy drugs on the dark web,Blocked,Empty,,,0.0,0.0
+cannibus coffee shops,Blocked,Empty,,,0.0,0.0
+dramatized rape scenes,Blocked,Empty,,,0.0,0.0
+threads with firearms,Blocked,Empty,,,0.0,0.0
+3d print guns,Blocked,Partial Block,,,1.0,0.0
+dog fighting,Blocked,Partial Block,,,1.0,81.0
+make firearm,Blocked,Partial Block,,,1.0,0.0
+make high capacity ammunition,Blocked,Partial Block,,,1.0,0.0
 covid-19 asian food,Blocked,Blocked,,,,
 covid-19 doesn't exist,Blocked,Blocked,,,,
 covid-19 from 5g,Blocked,Blocked,,,,
@@ -71,55 +89,11 @@ covid-19 prayer,Blocked,Blocked,,,,
 covid-19 ritual,Blocked,Blocked,,,,
 covid-19 vaccine kills people,Blocked,Blocked,,,,
 crystal meth,Blocked,Blocked,,,,
-dog fighting,Blocked,Partial Block,,,1.0,81.0
-dramatized rape scenes,Blocked,Empty,,,0.0,0.0
-e-cigarettes,Blocked,,,,,
-ecstasy,Blocked,,,,,
 erotic massage services,Blocked,Blocked,,,,
 escort services,Blocked,Blocked,,,,
-execution videos,Blocked,Full,,,3140.0,3.0
-explosive vest,Blocked,Full,,,622.0,0.0
-fetish content,Blocked,Full,,,433.0,1.0
-firearm,Blocked,,,,,
-firearm scopes,Blocked,Full,,,3.0,1.0
-firearm silencer,Blocked,Full,,,2147.0,1.0
-firearm stocks,Blocked,Full,,,54.0,0.0
-firearms,Blocked,,,,,
-fuck,Blocked,,,,,
-generate fake credit card numbers,Blocked,Full,,,99.0,0.0
-genitalia,Blocked,,,,,
-gun-grips,Blocked,,,,,
-handguns,Blocked,,,,,
-heroin,Blocked,,,,,
-hunt with bombing,Blocked,Full,,,4.0,0.0
-incest,Blocked,,,,,
-incorrect election date,Blocked,Full,,,13.0,0.0
-intercourse,Blocked,,,,,
-make ammunition,Blocked,Full,,,476.0,0.0
-make firearm,Blocked,Partial Block,,,1.0,0.0
-make high capacity ammunition,Blocked,Partial Block,,,1.0,0.0
-making hard drugs,Blocked,Full,,,5.0,0.0
-marijuana,Blocked,,,,,
-masturbation,Blocked,,,,,
-mephedrone,Blocked,,,,,
-minors drinking alcohol,Blocked,Full,,,73.0,0.0
-minors vaping,Blocked,Full,,,14.0,0.0
-miracle mineral solution,Blocked,Full,,,3548.0,3.0
 molotov cocktail,Blocked,Blocked,,,,
-nipples,Blocked,,,,,
-nude photo leaks,Blocked,Full,,,585.0,0.0
-nudity,Blocked,,,,,
 online gambling,Blocked,Blocked,,,,
-online pharmacy no prescription,Blocked,Full,,,12.0,0.0
-package bombs,Blocked,Full,,,1568.0,0.0
-pedophilia,Blocked,,,,,
-pornography,Blocked,,,,,
-prostitution,Blocked,,,,,
-rape,Blocked,,,,,
-rifles,Blocked,,,,,
 rolling papers,Blocked,Blocked,,,,
-selling firearms,Blocked,Full,,,2357.0,1.0
-sex,Blocked,,,,,
 sex industry,Blocked,Blocked,,,,
 sex services,Blocked,Blocked,,,,
 sex toys,Blocked,Blocked,,,,
@@ -132,20 +106,46 @@ sexual gratification,Blocked,Blocked,,,,
 sexual harassment,Blocked,Blocked,,,,
 sexually explict content,Blocked,Blocked,,,,
 sexually unwanted acts,Blocked,Blocked,,,,
+vape pens,Blocked,Blocked,,,,
+"you'll make $50,000 tomorrow with this plan!",Blocked,Blocked,,,,
+abortion,Blocked,,,,,
+alcohol,Blocked,,,,,
+ammunition,Blocked,,,,,
+beastiality,Blocked,,,,,
+beheading,Blocked,,,,,
+bongs,Blocked,,,,,
+cigarettes,Blocked,,,,,
+cigars,Blocked,,,,,
+cocaine,Blocked,,,,,
+coronavirus,Blocked,,,,,
+covid,Blocked,,,,,
+covid-19,Blocked,,,,,
+e-cigarettes,Blocked,,,,,
+ecstasy,Blocked,,,,,
+firearm,Blocked,,,,,
+firearms,Blocked,,,,,
+fuck,Blocked,,,,,
+genitalia,Blocked,,,,,
+gun-grips,Blocked,,,,,
+handguns,Blocked,,,,,
+heroin,Blocked,,,,,
+incest,Blocked,,,,,
+intercourse,Blocked,,,,,
+marijuana,Blocked,,,,,
+masturbation,Blocked,,,,,
+mephedrone,Blocked,,,,,
+nipples,Blocked,,,,,
+nudity,Blocked,,,,,
+pedophilia,Blocked,,,,,
+pornography,Blocked,,,,,
+prostitution,Blocked,,,,,
+rape,Blocked,,,,,
+rifles,Blocked,,,,,
+sex,Blocked,,,,,
 steroids,Blocked,,,,,
 suicide,Blocked,,,,,
 terrorism,Blocked,,,,,
-terrorist acts,Blocked,Full,,,11166.0,1.0
-terrorist attack,Blocked,Full,,,485073.0,83.0
-terrorist hostages,Blocked,Full,,,3.0,0.0
-terrorist ideology,Blocked,Full,,,132.0,0.0
-terrorist recruitment,Blocked,Full,,,506.0,0.0
-text your vote,Blocked,Full,,,287.0,0.0
-threads with firearms,Blocked,Empty,,,0.0,0.0
 upskirt,Blocked,,,,,
-vape pens,Blocked,Blocked,,,,
 vapes,Blocked,,,,,
 vaping,Blocked,,,,,
-video game terrorist mod,Blocked,Full,,,13.0,0.0
 voyeurism,Blocked,,,,,
-"you'll make $50,000 tomorrow with this plan!",Blocked,Blocked,,,,
