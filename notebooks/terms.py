@@ -1,153 +1,157 @@
-social_justice = '''Black Muslim
-anti-fascist
-Reparations
-Sex work
-Sex ed
-Sexual liberation
-Colonialism
-Repeal the Ban
-No Muslim Ban Ever
-I stand with Ilhan
-Stand with Ilhan
-Muslim Solidarity
-American Muslim
-Muslim American
-Abolish ICE
-Abolish the police
-No New Jails
-Defund the Police
-Black Lives Matter
-Black Trans Lives Matter
-Black Power
-Black Panthers
-Racial Justice
-Racial Injustice
-Black Liberation
-Black is beautiful
-Say her name
-Black Girls Matter
-Black in tech
-I stand with Kaepernick
-Oscars So White
-Tell Black Stories
-Believe Black Women
-No justice no peace
-I can't breathe
-Say their names
-End police brutality
-no tech for ice
-movement for black lives
-Hijab Fashion
-Muslim Fashion
-Muslim Parenting
-Antifascist
-Black dissent
-Patriarchy
-White supremacy
-LGBTQ+
-BIPOC
-QPOC
-Queer
-Digital Justice 
-Anti-Black
-Antiracism
-electoral justice
-Black excellence
-Black August
-white fragility
-wypipo
-black identity extremists
-civil rights
-black hair
-for the culture'''.split('\n')
+social_justice = [
+    'black muslim',
+    'anti-fascist',
+    'reparations',
+    'sex work',
+    'sex ed',
+    'sexual liberation',
+    'colonialism',
+    'repeal the ban',
+    'no muslim ban ever',
+    'i stand with ilhan',
+    'stand with ilhan',
+    'muslim solidarity',
+    'american muslim',
+    'muslim american',
+    'abolish ice',
+    'abolish the police',
+    'no new jails',
+    'defund the police',
+    'black lives matter',
+    'black trans lives matter',
+    'black power',
+    'black panthers',
+    'racial justice',
+    'racial injustice',
+    'black liberation',
+    'black is beautiful',
+    'say her name',
+    'black girls matter',
+    'black in tech',
+    'i stand with kaepernick',
+    'oscars so white',
+    'tell black stories',
+    'believe black women',
+    'no justice no peace',
+    "i can't breathe",
+    'say their names',
+    'end police brutality',
+    'no tech for ice',
+    'movement for black lives',
+    'hijab fashion',
+    'muslim fashion',
+    'muslim parenting',
+    'antifascist',
+    'black dissent',
+    'patriarchy',
+    'white supremacy',
+    'lgbtq+',
+    'bipoc',
+    'qpoc',
+    'queer',
+    'digital justice ',
+    'anti-black',
+    'antiracism',
+    'electoral justice',
+    'black excellence',
+    'black august',
+    'white fragility',
+    'wypipo',
+    'black identity extremists',
+    'civil rights',
+    'black hair',
+    'for the culture'
+]
 
-hate = '''American Front
-American Nazi Party
-Aryan Nation
-Gas The Kikes
-Gas The Kikes Race War Now
-Kike
-KKK
-Nazi
-Nigger
-Stormfront
-Two Seedline
-Wetback
-Holohoax
-holocaust denial
-14 words
-Alt-lite
-Alt-right
-American Renaissance
-American Vanguard
-Blood and soil
-Color of Crime
-Council of Conservative Citizens
-Cultural Marxism
-Daily Shoah
-Daily Stormer
-Diversity is a code word for anti-white
-Dual seedline
-Ethnic cleansing
-Ethnostate
-Free helocopter rides
-Globalist Jews
-Great Replacement
-Hammerskin
-Heil Hitler
-Identitarianism
-Identity Evropa
-It's Okay to Be White
-Jewish Question
-League of the South
-National Socialism
-Open Borders for Israel
-Proud Boys
-Race realism
-Race war
-Racial holy war
-Right wing death squads
-Sieg heil
-Southern nationalist
-Swastika
-Traditionalist Worker Party
-Vdare
-War on Whites
-We wuz kangz
-White civil rights
-White ethnostate
-White genocide
-White Lives Matter
-White nationalism
-White nationalist
-White pill
-White power
-White pride
-White pride worldwide
-White separatism
-white sharia
-You will not replace us
-Zionist Occupation Government
-Neo-confederate
-Ethnonationalism
-Ecofascism
-Unite The Right
-Red Ice TV
-Black sun
-Sonnenrad
-Neo-Nazi
-2083: A European Declaration of Independence
-Radical Islamic terror
-Send them back
-Civilization jihad
-American Identity Movement
-Goy
-Boogaloo
-Dindu
-Race and IQ
-Shitskins
-Amerimutt
-LGBTP'''.split('\n')
+hate = [
+    'american front',
+    'american nazi party',
+    'aryan nation',
+    'gas the kikes',
+    'gas the kikes race war now',
+    'kike',
+    'kkk',
+    'nazi',
+    'nigger',
+    'stormfront',
+    'two seedline',
+    'wetback',
+    'holohoax',
+    'holocaust denial',
+    '14 words',
+    'alt-lite',
+    'alt-right',
+    'american renaissance',
+    'american vanguard',
+    'blood and soil',
+    'color of crime',
+    'council of conservative citizens',
+    'cultural marxism',
+    'daily shoah',
+    'daily stormer',
+    'diversity is a code word for anti-white',
+    'dual seedline',
+    'ethnic cleansing',
+    'ethnostate',
+    'free helocopter rides',
+    'globalist jews',
+    'great replacement',
+    'hammerskin',
+    'heil hitler',
+    'identitarianism',
+    'identity evropa',
+    "it's okay to be white",
+    'jewish question',
+    'league of the south',
+    'national socialism',
+    'open borders for israel',
+    'proud boys',
+    'race realism',
+    'race war',
+    'racial holy war',
+    'right wing death squads',
+    'sieg heil',
+    'southern nationalist',
+    'swastika',
+    'traditionalist worker party',
+    'vdare',
+    'war on whites',
+    'we wuz kangz',
+    'white civil rights',
+    'white ethnostate',
+    'white genocide',
+    'white lives matter',
+    'white nationalism',
+    'white nationalist',
+    'white pill',
+    'white power',
+    'white pride',
+    'white pride worldwide',
+    'white separatism',
+    'white sharia',
+    'you will not replace us',
+    'zionist occupation government',
+    'neo-confederate',
+    'ethnonationalism',
+    'ecofascism',
+    'unite the right',
+    'red ice tv',
+    'black sun',
+    'sonnenrad',
+    'neo-nazi',
+    '2083: a european declaration of independence',
+    'radical islamic terror',
+    'send them back',
+    'civilization jihad',
+    'american identity movement',
+    'goy',
+    'boogaloo',
+    'dindu',
+    'race and iq',
+    'shitskins',
+    'amerimutt',
+    'lgbtp'
+]
 
 policies = [
     'miracle cancer treatment',
