@@ -93,7 +93,6 @@ hate = [
     'dual seedline',
     'ethnic cleansing',
     'ethnostate',
-    'free helocopter rides',
     'globalist jews',
     'great replacement',
     'hammerskin',
