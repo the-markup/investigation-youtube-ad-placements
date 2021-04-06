@@ -1,21 +1,21 @@
 # YouTube Ad Placements
-This repository contains code and data to reproduce the findings featured in our stories, "TK" and "TK" from our series TK.
+This repository contains code and data to reproduce the findings featured in our stories "TK" and "TK" from our series TK.
 
 Our methodology is described in "TK" and "TK".
 
-Data that we collected and analyzed are in the `data` folder.
+Data that we collected and analyzed is in the `data` folder.
 
-Jupyter notebooks used for data collection, preprocessing and analysis are in the `notebooks` folder.
+Jupyter notebooks used for data collection, preprocessing, and analysis are in the `notebooks` folder.
 
 <img src="./data/reference/media/google_ad_portal_youtube_ad_placements.png" width=700>
-<i> Advertisers can use Google's ad portal to search for YouTube videos and channels related to keywords like: "hiking gear reviews" to advertise on.</i>
+<i> Advertisers can use Google's ad portal to search for YouTube videos and channels related to keywords like "hiking gear reviews" to advertise on.</i>
 <br>
 <br>
-Warning: this repository contains many offensive terms and expletives.
+Warning: This repository contains many offensive terms and expletives.
 
 ## Installation
 ### Python
-Make sure you have Python 3.6+ installed, we used [Miniconda](https://docs.conda.io/en/latest/miniconda.html) to create a Python 3.8 virtual environment.
+Make sure you have Python 3.6+ installed. We used [Miniconda](https://docs.conda.io/en/latest/miniconda.html) to create a Python 3.8 virtual environment.
 
 Then install the Python packages:<br>
 `pip install -r requirements.txt`
@@ -24,22 +24,22 @@ Then install the Python packages:<br>
 These notebooks are intended to be run sequentially, but they are not dependent on one another.
 
 ### 0-data-collection.ipynb
-How we interacted with the "PlacementSuggestionService" API from "ads.google.com". We sent each term from `terms.py` through the API. Use this notebook for reference: it is not functional due to the expired or redacted parameters present.
+How we interacted with the "PlacementSuggestionService" API from "ads.google.com". We sent each term from `terms.py` through the API. Use this notebook for reference: It is not functional due to the expired or redacted parameters present.
 
 ### 1-data-preprocessing.ipynb
 Parsing the API responses and fetching the suggested videos and channels for each term we sent to the API.
 
 ### 2-data-analysis-hate.ipynb
-The bulk of stats and tables for our hate methodology.
+The bulk of stats and tables for our hate terms methodology.
 
 ### 3-suggestion-analysis.ipynb
-Looks at videos and channels suggested by the API for `hate` terms. We cross reference these suggestions with channels that a report published by the [ADL](https://www.adl.org/resources/reports/exposure-to-alternative-extremist-content-on-youtube) identified as "extremist" or "alternative", as well as a channels researchers at [EPFL and UFMG](https://dl.acm.org/doi/abs/10.1145/3351095.3372879) identified as "alt-right" or "alt-lite".
+Looks at videos and channels suggested by the API for `hate` terms. We cross reference these suggestions with channels that a report published by the [ADL](https://www.adl.org/resources/reports/exposure-to-alternative-extremist-content-on-youtube) identified as "extremist" or "alternative," as well as a channels researchers at [EPFL and UFMG](https://dl.acm.org/doi/abs/10.1145/3351095.3372879) identified as "alt-right" or "alt-lite".
 
 ### 4-data-analysis-social-justice.ipynb
-The bulk of stats and tables for our social justice methodology.
+The bulk of stats and tables for our social justice terms methodology.
 
 ### 5-rerun-and-check-status.ipynb
-After we shared our findings with Google, we re-run the analysis on data collected on March 31, 2021. Check what changed from the original data we collected on November 20, 2020.
+After we shared our findings with Google, we reran the analysis on data collected on March 31, 2021. Check what changed from the original data we collected on November 20, 2020.
 
 ### utils.py
 Contains functions to parse and decipher the API responses.
@@ -51,7 +51,7 @@ Refer to the "Data" section below for the API status of each of these terms.
 
 
 ## Data
-This directory is where inputs, intermediaries and outputs are saved.
+This directory is where inputs, intermediaries, and outputs are saved.
 ```
 data
 ├─── reference
@@ -97,16 +97,16 @@ data
 
 | filename or directory                             | description                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |:--------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `data/reference/placement_api_example_responses/` | Examples of `blocked`, `partially_blocked`, `full` and `empty` responses from the "PlacementSuggestionService" API. See the methodology for details, and [determine_status](https://github.com/the-markup/investigation-youtube-ad-placements/blob/master/notebooks/utils.py#L4) in `notebooks/utils.py` for implementation.                                                                                                  |
+| `data/reference/placement_api_example_responses/` | Examples of `blocked`, `partially_blocked`, `full` and `empty` responses from the "PlacementSuggestionService" API. See the methodology for details and [determine_status](https://github.com/the-markup/investigation-youtube-ad-placements/blob/master/notebooks/utils.py#L4) in `notebooks/utils.py` for implementation.                                                                                                  |
 | `data/reference/what_is_blocked.xlsx`             | A spreadsheet with the kind of API responses for all the terms in our investigation.                                                                                                                                                                                                                                                                                                                                          |
 | `data/output/tables/`                             | CSVs of tables that are in the methodology.                                                                                                                                                                                                                                                                                                                                                                                   |
-| `data/input/placements_api/`                      | This contains responses for keywords from `notebooks/terms.py` that we submitted to the "PlacementSuggestionService" API. Each sub-directory is used to organize by the keyword list used. `blocked` are terms that we resubmitted after removing spaces, and `blocked_basewords` are terms that were blocked and resubmitted word-by-word.                                                                                   |
+| `data/input/placements_api/`                      | This contains responses for keywords from `notebooks/terms.py` that we submitted to the "PlacementSuggestionService" API. Each subdirectory is used to organize by the keyword list used. `blocked` are terms that we resubmitted after removing spaces, and `blocked_basewords` are terms that were blocked and resubmitted word-by-word.                                                                                   |
 | `data/output/placements_api_keyword_status/`      | Contains the API status of keywords from `notebooks/terms.py` after being sent through the "PlacementSuggestionService" API.                                                                                                                                                                                                                                                                                                  |
 | `data/output/placements_api_suggestions/`         | The suggested YouTube videos and channels for each search term.                                                                                                                                                                                                                                                                                                                                                               |
-| `data/input/placements_api_deep3/`                | API responses for the `hate` terms "we wuz kangz", "white ethnostate" and "white genocide" beyond the topline 20 video suggestions.                                                                                                                                                                                                                                                                                           |
+| `data/input/placements_api_deep3/`                | API responses for the `hate` terms "we wuz kangz," "white ethnostate," and "white genocide" beyond the topline 20 video suggestions.                                                                                                                                                                                                                                                                                           |
 | `data/input/video_metadata/`                      | Video metadata for suggested videos from the YouTube Data API (v3). Collected with the unofficial Python client ([YouTube Data API](https://youtube-data-api.readthedocs.io/en/latest/))                                                                                                                                                                                                                                      |
-| `data/input/channel_lists/`                       | Contains channel names and IDs that researchers at [EPFL and UFMG](https://dl.acm.org/doi/abs/10.1145/3351095.3372879) identified as "alt-right" and "alt-lite". We used a supplementary "extremist" and "alternative" channel list published by the ADL, however that list is only available [by request](https://www.adl.org/resources/reports/exposure-to-alternative-extremist-content-on-youtube#the-belfer-fellowship). |
-| `data/output/channel_overlap.csv`                 | The count of unique "extremist", "alternative", "alt-right" and "alt-lite" videos and channels from the topline suggestions for `hate` terms we sent through the "PlacementSuggestionService" API. We included the channels that were suggested in the `channels` column.                                                                                                                                                     |
+| `data/input/channel_lists/`                       | Contains channel names and IDs that researchers at [EPFL and UFMG](https://dl.acm.org/doi/abs/10.1145/3351095.3372879) identified as "alt-right" and "alt-lite". We used a supplementary "extremist" and "alternative" channel list published by the ADL. However that list is only available [by request](https://www.adl.org/resources/reports/exposure-to-alternative-extremist-content-on-youtube#the-belfer-fellowship). |
+| `data/output/channel_overlap.csv`                 | The count of unique "extremist," "alternative," "alt-right," and "alt-lite" videos and channels from the topline suggestions for `hate` terms we sent through the "PlacementSuggestionService" API. We included the channels that were suggested in the `channels` column.                                                                                                                                                     |
 | `data/input/hate_terms_background_info.csv`       | Links for more information about each of the terms in the `hate` list.                                                                                                                                                                                                                                                                                                                                                        |
 | `data/z_data_rerun/`                              | API responses from re-running the experiment on March 31, 2021. Identical organization as `data/input/placements_api/` and `data/output/placements_api_keyword_status/`.                                                                                                                                                                                                                                                      |
 
