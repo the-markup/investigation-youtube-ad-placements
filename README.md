@@ -1,5 +1,7 @@
 # YouTube Ad Placements
-This repository contains code and data to reproduce our investigation of YouTube ad placements.
+This repository contains code and data to reproduce the findings featured in our stories, "TK" and "TK" from our series TK.
+
+Our methodology is described in "TK" and "TK".
 
 Data that we collected and analyzed are in the `data` folder.
 
