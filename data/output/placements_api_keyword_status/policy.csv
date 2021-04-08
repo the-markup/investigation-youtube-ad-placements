@@ -1,0 +1,151 @@
+search_term,status,status_no_spaces,n_youtube_videos,n_youtube_channels,n_youtube_videos_no_spaces,n_youtube_channels_no_spaces
+anti-vaccination,Full,,934120.0,98.0,,
+bomb making,Full,,28849109.0,7714.0,,
+bombings,Full,,292809.0,31.0,,
+bump stocks,Full,,691166.0,16.0,,
+child abuse,Full,,7367328.0,1510.0,,
+child marriage,Full,,31523210.0,22286.0,,
+cockfighting,Full,,169409.0,46.0,,
+conterfeit passports,Full,,3619424.0,112.0,,
+crime scene photos,Full,,23829633.0,957.0,,
+domestic violence,Full,,6958865.0,476.0,,
+eating disorders,Full,,2549168.0,155.0,,
+ethnic cleansing,Full,,931039.0,16.0,,
+extremism,Full,,932201.0,210.0,,
+forging official documents,Full,,161520.0,4.0,,
+get rich fast,Full,,52730683.0,5135.0,,
+harassment,Full,,4070507.0,10318.0,,
+homemade silencer,Full,,450132.0,36.0,,
+human torture,Full,,3949225.0,92.0,,
+kidnapping,Full,,7822690.0,110229.0,,
+mass shootings,Full,,980196.0,74.0,,
+miracle cancer treatment,Full,,10329189.0,23.0,,
+miracle treatment,Full,,20418957.0,209.0,,
+pipe bomb,Full,,18304944.0,100.0,,
+police brutality,Full,,2165467.0,544.0,,
+praise terrorists,Full,,913820.0,0.0,,
+racial discrimination,Full,,1938844.0,39.0,,
+recruit terrorists,Full,,592854.0,0.0,,
+robbery,Full,,15236682.0,168184.0,,
+self-harm,Full,,4030411.0,185.0,,
+shootings,Full,,41627733.0,692840.0,,
+swatting,Full,,302855.0,151.0,,
+violent criminal organizations,Full,,1450559.0,0.0,,
+voter eligability,Full,,67.0,0.0,,
+voter supression,Full,,125834.0,9.0,,
+cannibalism,Partial Block,,1.0,12271.0,,
+disparaging,Partial Block,,1.0,27.0,,
+dogfighting,Partial Block,,1.0,81.0,,
+aids denial,Blocked,Full,,,65.0,0.0
+ammunition clips,Blocked,Full,,,678.0,0.0
+animal mating,Blocked,Full,,,72001.0,35.0
+automatic gun conversion kits,Blocked,Full,,,41.0,0.0
+black salve,Blocked,Full,,,8740.0,4.0
+buy alcohol,Blocked,Full,,,16087.0,3.0
+buy organs,Blocked,Full,,,43.0,1.0
+buy weed,Blocked,Full,,,26576.0,8.0
+chewing tobacco,Blocked,Full,,,56504.0,13.0
+execution videos,Blocked,Full,,,3140.0,3.0
+explosive vest,Blocked,Full,,,622.0,0.0
+fetish content,Blocked,Full,,,433.0,1.0
+firearm scopes,Blocked,Full,,,3.0,1.0
+firearm silencer,Blocked,Full,,,2147.0,1.0
+firearm stocks,Blocked,Full,,,54.0,0.0
+generate fake credit card numbers,Blocked,Full,,,99.0,0.0
+hunt with bombing,Blocked,Full,,,4.0,0.0
+incorrect election date,Blocked,Full,,,13.0,0.0
+make ammunition,Blocked,Full,,,476.0,0.0
+making hard drugs,Blocked,Full,,,5.0,0.0
+minors drinking alcohol,Blocked,Full,,,73.0,0.0
+minors vaping,Blocked,Full,,,14.0,0.0
+miracle mineral solution,Blocked,Full,,,3548.0,3.0
+nude photo leaks,Blocked,Full,,,585.0,0.0
+online pharmacy no prescription,Blocked,Full,,,12.0,0.0
+package bombs,Blocked,Full,,,1568.0,0.0
+selling firearms,Blocked,Full,,,2357.0,1.0
+terrorist acts,Blocked,Full,,,11166.0,1.0
+terrorist attack,Blocked,Full,,,485073.0,83.0
+terrorist hostages,Blocked,Full,,,3.0,0.0
+terrorist ideology,Blocked,Full,,,132.0,0.0
+terrorist recruitment,Blocked,Full,,,506.0,0.0
+text your vote,Blocked,Full,,,287.0,0.0
+video game terrorist mod,Blocked,Full,,,13.0,0.0
+bullfighting swords in bull,Blocked,Empty,,,0.0,0.0
+buy drugs on the dark web,Blocked,Empty,,,0.0,0.0
+cannibus coffee shops,Blocked,Empty,,,0.0,0.0
+dramatized rape scenes,Blocked,Empty,,,0.0,0.0
+threads with firearms,Blocked,Empty,,,0.0,0.0
+3d print guns,Blocked,Partial Block,,,1.0,0.0
+dog fighting,Blocked,Partial Block,,,1.0,81.0
+make firearm,Blocked,Partial Block,,,1.0,0.0
+make high capacity ammunition,Blocked,Partial Block,,,1.0,0.0
+covid-19 asian food,Blocked,Blocked,,,,
+covid-19 doesn't exist,Blocked,Blocked,,,,
+covid-19 from 5g,Blocked,Blocked,,,,
+covid-19 guaranteed vaccine,Blocked,Blocked,,,,
+covid-19 home remedy,Blocked,Blocked,,,,
+covid-19 people don't die,Blocked,Blocked,,,,
+covid-19 prayer,Blocked,Blocked,,,,
+covid-19 ritual,Blocked,Blocked,,,,
+covid-19 vaccine kills people,Blocked,Blocked,,,,
+crystal meth,Blocked,Blocked,,,,
+erotic massage services,Blocked,Blocked,,,,
+escort services,Blocked,Blocked,,,,
+molotov cocktail,Blocked,Blocked,,,,
+online gambling,Blocked,Blocked,,,,
+rolling papers,Blocked,Blocked,,,,
+sex industry,Blocked,Blocked,,,,
+sex services,Blocked,Blocked,,,,
+sex toys,Blocked,Blocked,,,,
+sexual abuse,Blocked,Blocked,,,,
+sexual acts,Blocked,Blocked,,,,
+sexual device,Blocked,Blocked,,,,
+sexual fetishes,Blocked,Blocked,,,,
+sexual fluids,Blocked,Blocked,,,,
+sexual gratification,Blocked,Blocked,,,,
+sexual harassment,Blocked,Blocked,,,,
+sexually explict content,Blocked,Blocked,,,,
+sexually unwanted acts,Blocked,Blocked,,,,
+vape pens,Blocked,Blocked,,,,
+"you'll make $50,000 tomorrow with this plan!",Blocked,Blocked,,,,
+abortion,Blocked,,,,,
+alcohol,Blocked,,,,,
+ammunition,Blocked,,,,,
+beastiality,Blocked,,,,,
+beheading,Blocked,,,,,
+bongs,Blocked,,,,,
+cigarettes,Blocked,,,,,
+cigars,Blocked,,,,,
+cocaine,Blocked,,,,,
+coronavirus,Blocked,,,,,
+covid,Blocked,,,,,
+covid-19,Blocked,,,,,
+e-cigarettes,Blocked,,,,,
+ecstasy,Blocked,,,,,
+firearm,Blocked,,,,,
+firearms,Blocked,,,,,
+fuck,Blocked,,,,,
+genitalia,Blocked,,,,,
+gun-grips,Blocked,,,,,
+handguns,Blocked,,,,,
+heroin,Blocked,,,,,
+incest,Blocked,,,,,
+intercourse,Blocked,,,,,
+marijuana,Blocked,,,,,
+masturbation,Blocked,,,,,
+mephedrone,Blocked,,,,,
+nipples,Blocked,,,,,
+nudity,Blocked,,,,,
+pedophilia,Blocked,,,,,
+pornography,Blocked,,,,,
+prostitution,Blocked,,,,,
+rape,Blocked,,,,,
+rifles,Blocked,,,,,
+sex,Blocked,,,,,
+steroids,Blocked,,,,,
+suicide,Blocked,,,,,
+terrorism,Blocked,,,,,
+upskirt,Blocked,,,,,
+vapes,Blocked,,,,,
+vaping,Blocked,,,,,
+voyeurism,Blocked,,,,,
