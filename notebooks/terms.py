@@ -265,7 +265,26 @@ noise = [
 ]
 
 adhoc = [
+    'white christian',
+    "black christian",
+    "christian parenting",
+    "jewish parenting",
+    "buddhist parenting",
+    "buddhist fashion",
+    "christian solidarity",
+    "jewish solidarity",
+    "buddhist",
+    "buddhism",
+    "scientology",
+    "all lives matter",
+    "blue lives matter",
+    "Jewish Fashion",
+    "Christian fashion",
+    "sharia",
+    "sexual education",
     "hiking gear reviews",
+    "black nationalist",
+    "black nationalism",
     "white nationalists",
     "niggers",
     "nazis",
@@ -283,6 +302,8 @@ adhoc = [
     "voter fraud",
     "stop the steal",
     "stolen election",
+    "american muslims",
+    "black muslims",
     "wetbacks",
     "neo-nazis",
     "neo-confederates",
@@ -295,19 +316,31 @@ adhoc = [
     "nazi scientist",
     "nazi extermination camps",
     "white pills",
+    "christian american",
+    "black chrsitian",
+    "jewish american",
+    "black jew",
+    "black buddhist",
+    "buddhist american",
     "rohingya genocide",
     "uyghur genocide",
     "yazidi genocide",
     "anti-vax",
     "anti-vaxx",
+    'sex positive',
     "climate change",
     "climate denial",
+    "blm",
+    "homosexual",
+    "sexuality"
 ]
 
+social_justice = list(set([t.lower().strip() for t in social_justice]))
 hate = list(set([t.lower().strip() for t in hate]))
 policies = list(set([t.lower().strip() for t in policies]))
 
 category2terms = {
+    'social_justice' : social_justice,
     'hate' : hate,
     'policy' : policies,
     'noise' : noise,
