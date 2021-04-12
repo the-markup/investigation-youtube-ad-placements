@@ -7,7 +7,7 @@ Data that we collected and analyzed are in the `data` folder.
 
 Jupyter notebooks used for data collection, preprocessing and analysis are in the `notebooks` folder.
 
-<img src="https://raw.githubusercontent.com/the-markup/investigation-youtube-ad-placements/master/data/reference/media/google_ad_portal_youtube_ad_placements.png" width=700>
+<img src="https://raw.githubusercontent.com/the-markup/investigation-youtube-ad-placements/master/data/reference/media/youtube_placements.png" width=700>
 <i> Advertisers can use Google's ad portal to search for YouTube videos and channels related to keywords like: "hiking gear reviews" to advertise on.</i>
 <br>
 <br>
