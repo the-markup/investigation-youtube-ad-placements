@@ -138,7 +138,7 @@ social_justice = [
     'bipoc',
     'qpoc',
     'queer',
-    'digital justice\xa0',
+    'digital justice',
     'anti-black',
     'antiracism',
     'electoral justice',
